@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{e088b68f-22c5-4039-8235-3494bf4abcf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\test\exec.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\first.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\second.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_array.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_assign.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_calc.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_class.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_empty.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_eval.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_except.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_fib.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_fiber.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_float.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_for.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_fun.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_if.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_inc.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_iter.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_jp.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_lib.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_map.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_multiple_values.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_nested_loops.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_op.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_op_assign.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_reload.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_serialize.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_string.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_thread.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_toplevel.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_var_scope.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\test\test_xpeg.xtal">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\test.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

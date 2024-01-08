@@ -6,7 +6,7 @@
 #include "../src/xtal/xtal_lib/xtal_cstdiostream.h"
 #include "../src/xtal/xtal_lib/xtal_winfilesystem.h"
 #include "../src/xtal/xtal_lib/xtal_chcode.h"
-#include "../src/xtal/xtal_lib/xtal_errormessage.h"
+#include "../src/xtal/xtal_lib/xtal_errormessage_en.h"
 
 #include "../src/xtal/xtal_codebuilder.h"
 	

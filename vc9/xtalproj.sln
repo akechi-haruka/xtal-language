@@ -1,22 +1,15 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual C++ Express 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xtallib", "xtallib\xtallib.vcproj", "{68590069-97DE-4287-BFDF-053C7A788F8D}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xtallib", "xtallib\xtallib.vcxproj", "{68590069-97DE-4287-BFDF-053C7A788F8D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xtal", "xtal\xtal.vcproj", "{C046320D-C46D-4726-81CA-52D64A66B314}"
-	ProjectSection(ProjectDependencies) = postProject
-		{68590069-97DE-4287-BFDF-053C7A788F8D} = {68590069-97DE-4287-BFDF-053C7A788F8D}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xtal", "xtal\xtal.vcxproj", "{C046320D-C46D-4726-81CA-52D64A66B314}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcproj", "{F468F567-E61C-4F2C-BDA9-C866699126D0}"
-	ProjectSection(ProjectDependencies) = postProject
-		{68590069-97DE-4287-BFDF-053C7A788F8D} = {68590069-97DE-4287-BFDF-053C7A788F8D}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{F468F567-E61C-4F2C-BDA9-C866699126D0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ix", "ix\ix.vcproj", "{15143461-4DEE-4303-A482-06F3A919CF7A}"
-	ProjectSection(ProjectDependencies) = postProject
-		{68590069-97DE-4287-BFDF-053C7A788F8D} = {68590069-97DE-4287-BFDF-053C7A788F8D}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ix", "ix\ix.vcxproj", "{15143461-4DEE-4303-A482-06F3A919CF7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBD28954-54E2-4D95-81FD-34CDE0D4CAC7}
 	EndGlobalSection
 EndGlobal
