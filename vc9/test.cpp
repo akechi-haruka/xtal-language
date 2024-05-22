@@ -12,7 +12,7 @@
 //#include "../src/xtal/xtal_lib/xtal_errormessage.h"
 //#include "../src/xtal/xtal_lib/xtal_tcpstream.h"
 //#include "../src/xtal/xtal_lib/xtal_errormessage_jp_utf8.h"
-#include "../src/xtal/xtal_lib/xtal_errormessage.h"
+#include "../src/xtal/xtal_lib/xtal_errormessage_en.h"
 
 #include "time.h"
 
